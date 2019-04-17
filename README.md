@@ -23,3 +23,6 @@ Written html to 1555504134-de-DE.html
 Written html to 1555504134-es-ES.html
 Written html to 1555504134-tr-TR.html
 ```
+## License
+
+[MIT](https://github.com/prthmsh/htmlSplit/blob/master/LICENSE)
