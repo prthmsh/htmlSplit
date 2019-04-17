@@ -1,7 +1,7 @@
 var cheerio = require('cheerio');
 var fs = require('fs');
 
-fs.readFile('new_template_err.html', 'utf8', dataLoaded);
+fs.readFile('input/template.html', 'utf8', dataLoaded);
 
 function dataLoaded(err, data) {
 	if (data.length < 1){
@@ -19,7 +19,7 @@ function dataLoaded(err, data) {
 		console.log('no languages found')
 		return;
 	}
-		
+
 	$('#root > div').remove();
 	//console.log($.html())
 	$1 = cheerio.load('' + data + '');
