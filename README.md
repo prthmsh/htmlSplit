@@ -13,7 +13,7 @@ npm install
 node index.js
 ```
 
-# output will be templates folder locally.
+Output will be templates folder locally.
 
 ```
 1
